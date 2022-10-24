@@ -265,8 +265,4 @@ li a{
      }
 
   }
-  @media (max-width:560px) {
-     nav{
-        padding: 10px 40px;
-     }
-  }
+  
