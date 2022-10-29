@@ -115,15 +115,19 @@ li a{
     display: flex;
     max-width: 1000px;
     width: 100%;
-    gap: 120px;
+    gap: 5rem;
     margin: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
    
   }
   .item-1{
     display: flex;
     width: 100%;
+  }
+  .item-1 a{
+    text-decoration: none;
+    color: #000;
   }
   .img img{
      width: 90px;
@@ -150,7 +154,7 @@ li a{
         padding: 15px 27px;
         gap: 100%;
         align-items: center;
-        width: 350px;
+        width: 20rem;
         justify-content: center;
 
     }
@@ -200,7 +204,7 @@ li a{
         font-weight: bold;
         border-radius: 5px;
         box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.2);
-        transition: 0.2s linear;
+        transition: 0.5s ease-in-out;
      }
      .mobile-nav img{
         float: right;
@@ -229,7 +233,7 @@ li a{
         content: url(./assets/images/image-web-3-mobile.jpg);
         grid-column: 1/3;
         grid-row: 1/2;
-        width: 100%;
+        width: 27rem;
     }
     .hero img{
        
@@ -264,5 +268,21 @@ li a{
         padding-left: 20px;
      }
 
+  }
+  @media(max-width: 500px){
+    nav{
+        max-width: 250px;
+        width: 20rem;
+    }
+    .Hero{
+        max-width: 400px;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-image{
+        width: 20rem;
+    }
   }
   
